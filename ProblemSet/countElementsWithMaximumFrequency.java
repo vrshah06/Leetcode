@@ -1,4 +1,4 @@
-class Solution
+class countElementsWithMaximumFrequencySolution
 {
     public int maxFrequencyElements(int[] nums)
     {

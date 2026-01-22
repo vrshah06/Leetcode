@@ -7,6 +7,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
 class removeNthFromEndSolution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode fast = head, slow = head;

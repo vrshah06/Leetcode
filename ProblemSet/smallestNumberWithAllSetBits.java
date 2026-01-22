@@ -1,4 +1,4 @@
-class Solution
+class smallestNumberWithAllSetBitsSolution
 {
     public int smallestNumber(int n)
     {

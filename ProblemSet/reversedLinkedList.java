@@ -1,6 +1,8 @@
 //import java.util.*;
-class reversedLinkedListSolution
+class ListNode
 {
+    int val;
+    ListNode next;
     public ListNode reverseList(ListNode head)
     {
          if (head==null || head.next==null)

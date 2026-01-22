@@ -1,4 +1,4 @@
-class Solution
+class findTheMostFrequentVowelAndConsonantSolution
 {
     public int maxFreqSum(String s)
     {

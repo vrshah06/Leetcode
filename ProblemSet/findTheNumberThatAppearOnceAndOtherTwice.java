@@ -4,7 +4,7 @@ class findNumberThatAppearOnceSolution
     public int[] findNumberThatAppearOnce(int[] nums)
     {
         int currentCount = 0;
-        int count = 0;
+        //int count = 0;
         for(int i = 0;i<nums.length;i++)
         {
             currentCount = 0;

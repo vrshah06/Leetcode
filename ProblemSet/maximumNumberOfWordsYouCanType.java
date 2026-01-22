@@ -1,4 +1,4 @@
-class Solution
+class maximumNumberOfWordsYouCanTypeSolution
 {
     public int canBeTypeWords(String text, String brokenLetters)
     {
