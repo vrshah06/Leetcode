@@ -52,3 +52,24 @@ public class countLargestGroup {
 
     }
 }
+
+//Python approach
+/*
+n = int(input("Enter the number: "))
+num=[0]*1000
+max=0
+for i in range(1,n+1):
+    sum = 0
+    temp=i
+    while temp>0:
+        sum+=temp%10
+        temp//=10
+    num[sum]+=1
+for count in num:
+    if count>max:
+        max=count
+group=0
+for count in num:
+    if count==max:
+        group+=1
+*/
