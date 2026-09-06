@@ -10,4 +10,5 @@ for d in range(1,max_num+1):
     if total <= threshold:
         print(d)
         break
-print(-1)
+else:
+    print(-1)

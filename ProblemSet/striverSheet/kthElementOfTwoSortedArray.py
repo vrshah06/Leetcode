@@ -1,0 +1,5 @@
+a = eval(input("Enter the numbers: "))
+b = eval(input("Enter the numbers: "))
+k = int(input("Enter the value of k: "))
+merged = sorted(a + b)
+print(f"The {k}th element of the two sorted arrays is: {merged[k-1]}")
